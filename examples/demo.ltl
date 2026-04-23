@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_traceroute
+
+import std::io
+use ltl_traceroute as lib
+
+fn main() {
+    io::println("ltl_traceroute demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
