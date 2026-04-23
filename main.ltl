@@ -1,0 +1,15 @@
+// ltl-traceroute/main.ltl
+//
+// UDP and ICMP traceroute with AS-number enrichment.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-traceroute v0.1.0")
+    io::println("UDP and ICMP traceroute with AS-number enrichment.")
+    0
+}
